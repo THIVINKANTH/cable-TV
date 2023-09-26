@@ -1,0 +1,110 @@
+#bf { 
+    background-image: url(bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+   
+    overflow: hidden;
+} 
+.logo{
+  color: #FFF;
+  font-family: Lexend;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.1px;
+}
+.soft{
+  color: #F1F0F0;
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.08px;
+}
+  #box {
+    border-radius: 16px;
+    background: linear-gradient(
+      140.41deg,
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0.25) 47.58%,
+      rgba(255, 255, 255, 0.15)
+    );
+    backdrop-filter: blur(40px);
+    width: 100%;
+    height: 100%;
+  }
+  .register-now {
+    /* margin-top: 18px; */
+    font-size: 36px;
+    letter-spacing: 0.14em;
+    /* line-height: 68px; */
+    color: var(--color-white);
+    text-shadow: 2px 8px 16px rgba(0, 0, 0, 0.2);
+    font-size: var(font size lg);
+    font-weight: 1000;
+    font-family: var(--font-poppins);
+    --color-white: #fff;
+  }
+  .create-account1 {
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: #7a7a7a;
+
+}
+.frame-item {
+    border-radius: 16px;
+    resize: horizontal;
+    background: linear-gradient( 91.74deg, rgba(255, 255, 255, 0.1), rgba(255, 254, 254, 0.2) 50.84%, rgba(255, 254, 254, 0.1) );
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgb(255, 255, 255);
+    height: 54px;
+    padding: 1px 24px;
+    border-color: #fff;
+    outline: none;
+}
+::placeholder{
+    font-size: 20px;
+    font-weight: 500;
+}
+.button {
+    border-radius: var(--br-lg);
+    border-radius: 16px;
+    background: linear-gradient( 91.05deg, rgba(31, 39, 255, 0.342), rgb(31, 38, 224, 0.16)57.81%, rgba(31, 37, 224, 0.24)99.99%, rgb(225, 254, 254, 0.2) );
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgb(255, 255, 255);
+    width: 365px;
+    font-weight: 500;
+    /* height: 50px; */
+    color: white;
+}
+.btn {
+    font-size: 28px;
+    /* line-height: 42px; */
+    font-weight: 500;
+    color: white;
+    border: none;
+    outline: none;
+}
+.forget-p {
+    letter-spacing: 0.01em;
+    /* line-height: 34px; */
+    font-weight: 500;
+    color: #5c5c5c;
+    text-decoration: none;
+  }
+  .create-ac{
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    line-height: 34px;
+    font-weight: 500;
+    color: #5c5c5c;
+    opacity: 9;
+  }
+  .card-footer{
+    background-color: transparent;
+    text-align: center;
+  }
